@@ -72,8 +72,8 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, `Test yakunlandi!\n\nSizning umumiy ballingiz: ${totalScore}\n\n${riskLevel}`);
         bot.sendMessage(chatId, 
             `Sizni o'z salomatligingiz haqida ko'proq ma'lumot olish uchun kanal va guruhlarimizga taklif qilamiz:
-            📱 Kanalimiz: @Dr_Muydinov
-            💬 Guruhimiz: @Endokrinolog_Muydinov`
+            📱 Kanalimiz: [@Dr_Muydinov](https://t.me/Dr_Muydinov)
+            💬 Guruhimiz: [@Endokrinolog_Muydinov](https://t.me/Endokrinolog_Muydinov)`
         );
 
         // Testni tugatgandan keyin foydalanuvchi ma'lumotlarini o'chirish
