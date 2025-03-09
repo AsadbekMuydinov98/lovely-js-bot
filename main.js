@@ -1,5 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = '8112954505:AAGMrNmHGXJekKeoXpbpENJWJTTfvsx-wuM'; // O'zingizning tokenni kiriting
+8112954505:AAGMrNmHGXJekKeoXpbpENJWJTTfvsx-wuM
 const bot = new TelegramBot(token, { polling: true });
 
 const questions = [
@@ -69,7 +70,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 
             `Sizni o'z salomatligingiz haqida ko'proq ma'lumot olish uchun kanal va guruhlarimizga taklif qilamiz:
             📱 Kanalimiz: [@Dr_Muydinov](https://t.me/Dr_Muydinov)
-            💬 Guruhimiz: [@Endokrinolog_Muydinov](https://t.me/Endokrinolog_Muydinov`)
+            💬 Guruhimiz: [@Endokrinolog_Muydinov](https://t.me/Endokrinolog_Muydinov)`)
         delete userScores[chatId]; // Testni tugatgandan keyin foydalanuvchining ma'lumotlarini o'chirish
     }
 });
