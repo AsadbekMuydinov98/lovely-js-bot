@@ -1,6 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = '8112954505:AAGMrNmHGXJekKeoXpbpENJWJTTfvsx-wuM'; // O'zingizning tokenni kiriting
-8112954505:AAGMrNmHGXJekKeoXpbpENJWJTTfvsx-wuM
 const bot = new TelegramBot(token, { polling: true });
 
 const questions = [
